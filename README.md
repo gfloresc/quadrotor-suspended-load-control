@@ -16,7 +16,7 @@ The main idea is to exploit an exact geometric decomposition of the thrust vecto
 ```text
 manuscript/        Manuscript PDF.
 simulations/       Main Python simulation script.
-results/videos/    Demonstration videos and animations.
+results/    Demonstration videos and animations.
 ```
 
 The LaTeX source files and individual manuscript figures are not included in this repository. Only the manuscript PDF, simulation code, generated figures, and videos are provided.
@@ -26,8 +26,8 @@ The LaTeX source files and individual manuscript figures are not included in thi
 The repository includes the following demonstration videos:
 
 ```text
-results/videos/quadrotor.mp4
-results/videos/quadrotor.gif
+results/quadrotor.mp4
+results/quadrotor.gif
 ```
 
 These videos show the simulated quadrotor transporting a cable-suspended load under the proposed nonlinear controller.
@@ -92,8 +92,7 @@ The script integrates the full 24-state closed-loop system, generates paper-styl
 Recommended output folders:
 
 ```text
-results/figures/
-results/videos/
+results/
 ```
 
 ## Manuscript
